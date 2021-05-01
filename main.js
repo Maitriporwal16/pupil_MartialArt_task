@@ -13,17 +13,17 @@ var imagePath = (frameno, animation) => {
 }
 
 let frames = { idle:[1,2,3,4,5,6,7,8],
-    kick:[1],
+    kick:[1,2,3,4,5,6,7],
     punch:[1], 
-    backward:[1],
-    block:[1],
-    forward:[1]
+    backward:[1,2,3,4,5,6],
+    block:[1,2,3,4,5,6,7,8,9],
+    forward:[1,2,3,4,5,6]
     };
 
 
 
 let loadImages =(callback)=> {
-    let images = { idle:[], kick:[], punch:[1,2,3,4,5,6,7], backward:[], block:[], forward:[1] };
+    let images = { idle:[], kick:[], punch:[1,2,3,4,5,6,7], backward:[], block:[], forward:[] };
     let imagesToLoad = 0;
 
 
