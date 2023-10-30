@@ -1,4 +1,5 @@
 //Added random comments to test with gerrit 
+//just testing 
 var c = document.getElementById("my-canvas");
 var ctx = c.getContext("2d");
 
